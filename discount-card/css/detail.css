@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(248, 248, 248, 1);
+}
+.container {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 16px 20px 20px 20px;
+}
+.container .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.container .discount-item {
+  height: 80px;
+  padding: 15px;
+  line-height: 20px;
+  border-radius: 0px;
+  background-color: rgba(254, 253, 248, 1);
+  text-align: center;
+  border: 1px solid rgba(255, 152, 8, 1);
+  margin-bottom: 10px;
+}
+
+.container .discount-item .left {
+  padding: 5px;
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  text-align: left;
+  font-weight: bold;
+  border-right: 1px dashed rgba(0, 0, 0, 1);
+}
+
+.container .discount-item .left .currency-type{
+  width: 14px;
+  height: 20px;
+  color: rgba(236, 106, 75, 1);
+  font-size: 14px;
+  text-align: left;
+}
+
+.container .discount-item .left .price{
+  width: 33px;
+  height: 41px;
+  color: rgba(236, 106, 75, 1);
+  font-size: 28px;
+  text-align: left;
+}
+
+.container .discount-item .left .discount-tag{
+  width: 58px;
+  height: 18px;
+  opacity: 0.3;
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.container .discount-item .right {
+  float: right;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  width: 75%;
+}
+
+.container .discount-item .right .title{
+  float: left;
+  width: 100%;
+  height: 24px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 16px;
+  text-align: left;
+}
+
+.container .discount-item .right .period-4-use{
+  display: block;
+  float: left;
+  height: 18px;
+  opacity: 0.3;
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.container .discount-item .right .status{
+  float: right;
+  width: 60px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 100px;
+  background-color: rgba(236, 106, 75, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial;
+  border: 1px solid rgba(255, 255, 255, 0);
+  margin-top: -20px;
+}
+
+.container .get-more {
+  left: 50%;
+  transform: translate(-32px);
+  width: 64px;
+  height: 18px;
+  position: relative;
+}
+
+.container .get-more .text{
+  width: 48px;
+  height: 18px;
+  color: rgba(153, 153, 153, 1);
+  font-size: 12px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+}
+
+.container .get-more .to-bottom-arrow{
+  float: right;
+  width: 8px;
+  height: 8px;
+  opacity: 0.4;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-color: transparent rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) transparent;
+  transform: rotate(45deg) translate(5px);
+}
+
+.top {
+  display: flex;
+}
+.top .logo {
+  align-self: center;
+}
+
+.top .logo img {
+  align-self: center;
+  margin-right: 10px;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.top .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right .itemTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+.top .right .subTitle {
+  font-size: 16px;
+  color: rgba(16, 16, 16, 1);
+}
+.top .right .keyWords {
+  font-size: 14px;
+  color: rgba(166, 164, 164, 1);
+  line-height: 30px;
+}
+
+.descItem {
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  line-height: 40px;
+}
+.descContent {
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+.addr {
+  background: url() rgba(170, 170, 170, 1);
+}
+.phone {
+  background: url() rgba(170, 170, 170, 1);
+}
+
+.tag {
+  margin: 5px 0px 16px;
+}
+.tagItem {
+  line-height: 17px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(233, 83, 50, 1);
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial;
+  border: 1px solid rgba(233, 83, 50, 1);
+  margin-right: 5px;
+  padding: 3px;
+}
+
+.openTime,
+.storeInfo,
+.imgInfo {
+  color: rgba(102, 102, 102, 1);
+  font-size: 14px;
+}
+.imgWall {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.imgWall img {
+  width: 24%;
+}
+
+.siteItem {
+  margin-bottom: 15px;
+}
+
+.siteName,
+.siteAddr,
+.sitePhone {
+  font-size: 14px;
+  line-height: 25px;
+}
+.siteName {
+  color: rgba(16, 16, 16, 1);
+}
+.siteAddr,
+.sitePhone {
+  color: rgba(166, 164, 164, 1);
+}

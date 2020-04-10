@@ -1,0 +1,27 @@
+.back-drop{
+    background-color: #fff;
+    line-height: 20px;
+    position: absolute;
+    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 1);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0);
+    left: 0px;
+    top: 0px;
+    width: 375px;
+    height: 671px;
+}
+
+.container .qrnumber {
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 50%;
+    transform: translate(-30px);
+    margin-top: 320px;
+    font-size: 18px;
+    opacity: 0.2;
+    color: rgba(16, 16, 16, 1);
+    font-size: 18px;
+    text-align: center;
+}
